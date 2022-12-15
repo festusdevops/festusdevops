@@ -2,5 +2,6 @@
 echo "creating a new branch......"
 sleep 5
 echo "provide branch name"
-read 
+read branch
 git branch $name
+date
